@@ -504,15 +504,15 @@ if __name__ == "__main__":
     vlm_client = QwenVLClient(API_KEY, API_URL,vlm_MODEL)
     llm_client = QwenLLMClient(API_KEY, API_URL,llm_MODEL)
     #url
-    pdf_url = "https://study.njust.edu.cn/_upload/article/files/e4/6b/e9bb8b6245adbcd5bbd71375c581/e4c7cd58-375a-4a95-aa9b-32a7cb4fe46b.pdf"
-    ppt_url = "https://file.zhihuishu.com/zhs/teacherExam_h5/COURSEDATA/202105/522d4d2450a8407d8028bff5f0305bac.ppt"
-    doc_url = "https://file.zhihuishu.com/zhs/teacherExam_h5/COURSEDATA/202108/7c5903566d4b41c8bb65f24881602aa6.doc"
+    pdf_url = ""
+    ppt_url = ""
+    doc_url = ""
     #path
-    doc_path = "/home/liyongyu/rag_for_topic/yolo/人教版物理选修二4.4法拉第电磁感应定律章节试题练习题.doc"
+    doc_path = ""
 
 
-    yolo_model_path = "/home/liyongyu/rag_for_topic/yolo/yolo_model/doclayout_yolo_docstructbench_imgsz1024.pt"
-    save_path = "/home/liyongyu/rag_for_topic/yolo/test_output/doc_output"
+    yolo_model_path = "../yolo_model/doclayout_yolo_docstructbench_imgsz1024.pt"
+    save_path = "../test_output/doc_output"
     questions_path = f"{save_path}/All_Questions"
     
     os.makedirs(save_path, exist_ok=True)

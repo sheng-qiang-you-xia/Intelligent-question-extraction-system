@@ -161,6 +161,18 @@ python AI_generate_questions.py
 - 关联图片
 - 表格内容
 
+## 可视化与示例
+
+- **可视化HTML预览**: [demo_standalone_pdf.html](demo_standalone_pdf.html)
+
+示例效果图：
+
+![示例效果1](39d30963778e9259358e307f2f3dddb3.png)
+
+![示例效果2](70ce7dba345627e0994e0b39552013db.png)
+
+![示例效果3](8450596880fee7d424060bd1ccbcaf88.png)
+
 ## 项目结构
 
 ```
